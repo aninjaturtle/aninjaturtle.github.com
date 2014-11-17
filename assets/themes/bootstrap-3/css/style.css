@@ -21,7 +21,9 @@ h1, h2, h3, h4 {
   background-color: #fdcd60;
 }
 
-
+.navbar-fixed-top {
+top: 35px;
+}
 
 /* posts index */
 .post > h3.title {
