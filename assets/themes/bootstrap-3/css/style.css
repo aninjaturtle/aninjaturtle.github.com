@@ -23,7 +23,6 @@ h1, h2, h3, h4, h5, h6, body{
 #footer {
   background-color: #fdcd60;
 }
-
 .navbar-fixed-top {
 top: 35px;
 }
@@ -82,3 +81,8 @@ top: 35px;
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+.works {
+  height: 300px;	
+  background-color:#ddd;
+}
