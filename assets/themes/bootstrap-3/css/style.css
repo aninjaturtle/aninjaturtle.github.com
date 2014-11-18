@@ -106,6 +106,8 @@ top: 35px;
 	-moz-border-radius: 150px;
 	background-color: #ddd;
 	padding: 10px;
+	-webkit-transition: all 600ms easing’s Bezier curve;
+     transition:         all 600ms easing’s Bezier curve;
 }
 .works img:hover{
 padding: 15px;
