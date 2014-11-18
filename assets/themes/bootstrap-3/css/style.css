@@ -123,9 +123,9 @@ top: 35px;
     opacity: 0;
     transition: all 0.4s ease-in-out;
     transform: scale(0);
+	padding: 75px;
 }
 .works-info h3{
-	h3 {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
