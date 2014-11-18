@@ -92,11 +92,11 @@ top: 35px;
 	margin: 25px;
 }
 .works:hover {
-  width: 310px;
-	height: 310px;
-	border-radius: 155px;
-	-webkit-border-radius: 155px;
-	-moz-border-radius: 155px;
+  width: 300px;
+	height: 300px;
+	border-radius: 130px;
+	-webkit-border-radius: 130px;
+	-moz-border-radius: 130px;
 	background-color: #ddd;
 	margin: 25px;
 }
@@ -112,18 +112,7 @@ top: 35px;
 	background-color: #ddd;
 	padding: 10px;
 }
-.works img:hover{
-	vertical-align: middle;
-	float: left;
-	max-width: 100%;
-	width: 310px;
-	height: 310px;
-	border-radius: 155px;
-	-webkit-border-radius: 155px;
-	-moz-border-radius: 155px;
-	background-color: #ddd;
-	padding: 10px;
-}
+
 @media (max-width: 992px) and (min-width: 768px){
 	.works {
   width: 200px;
