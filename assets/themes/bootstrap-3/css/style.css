@@ -194,9 +194,11 @@ top: 35px;
 	float:right;
 }
 .navbar-default .navbar-nav>li>a{
-	font-size:4em;
-	text-align:right;
+	font-size:2em;
 }
+navbar-nav {
+float: right
+};
 <!--image transitions-->
 
 @media (max-width: 992px) and (min-width: 768px){
