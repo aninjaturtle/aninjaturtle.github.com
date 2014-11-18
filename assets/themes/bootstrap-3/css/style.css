@@ -111,6 +111,24 @@ top: 35px;
 .works img:hover{
 padding: 15px;
 }
+.works-img1 { 
+	background-image: url(images/1.jpg);
+}
+.works-img1 { 
+	background-image: url(images/2.jpg);
+}
+.works-img1 { 
+	background-image: url(images/3.jpg);
+}
+.works-img1 { 
+	background-image: url(images/4.jpg);
+}
+.works-img1 { 
+	background-image: url(images/5.jpg);
+}
+.works-img1 { 
+	background-image: url(images/6.jpg);
+}
 
 <!--image transitions-->
 .ch-item {
