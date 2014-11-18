@@ -66,6 +66,7 @@
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
+            <a href="#footer-scroll">About</a>
           </ul>
           <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
@@ -84,8 +85,10 @@
 
     <div id="footer">
       <div class="container">
+       <a name="footer-scroll">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
         </p>
+        </a>
       </div>
     </div>
 
