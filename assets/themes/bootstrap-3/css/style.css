@@ -95,4 +95,12 @@ top: 35px;
 	vertical-align: middle;
 	float: left;
 	max-width: 100%;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background-color: #ddd;
+	/* margin: 25px; */
+	padding: 10px;
 }
