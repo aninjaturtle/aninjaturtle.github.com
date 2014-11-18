@@ -128,7 +128,7 @@ top: 35px;
 	padding: 10px;
 }
 }
-@media (max-width: 767px) and (min-width: 535px){
+@media (max-width: 767px) {
 	.works {
   width: 200px;
 	height: 200px;
@@ -150,5 +150,25 @@ top: 35px;
 	background-color: #ddd;
 	/* margin: 25px; */
 	padding: 10px;
+}
+}
+@media (max-width: 767px) and (min-width: 535px){
+	.works {
+    width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+.works img{
+	vertical-align: middle;
+	float: left;
+	max-width: 100%;
+	width:200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+
 }
 }
