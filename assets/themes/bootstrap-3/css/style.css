@@ -92,13 +92,8 @@ top: 35px;
 	margin: 25px;
 }
 .works:hover {
-  width: 260px;
-	height: 260px;
-	border-radius: 130px;
-	-webkit-border-radius: 130px;
-	-moz-border-radius: 130px;
-	background-color: #ddd;
-	margin: 25px;
+	background-color: #000;
+
 }
 .works img{
 	vertical-align: middle;
