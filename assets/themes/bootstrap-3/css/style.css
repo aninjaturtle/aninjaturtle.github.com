@@ -190,6 +190,11 @@ top: 35px;
 	background-color: #FFCACA;
 	border-color: #e7e7e7;
 }
+
+.navbar-header{
+	font-size:4em;
+	text-align:right;
+}
 <!--image transitions-->
 
 @media (max-width: 992px) and (min-width: 768px){
