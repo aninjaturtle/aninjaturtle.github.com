@@ -89,3 +89,7 @@ top: 35px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
 }
+.works.img{
+	max-width:300px;
+	height:auto;
+}
