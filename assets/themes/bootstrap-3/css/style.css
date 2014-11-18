@@ -91,6 +91,15 @@ top: 35px;
 	background-color: #ddd;
 	margin: 25px;
 }
+.works:hover {
+  width: 310px;
+	height: 310px;
+	border-radius: 155px;
+	-webkit-border-radius: 155px;
+	-moz-border-radius: 155px;
+	background-color: #ddd;
+	margin: 25px;
+}
 .works img{
 	vertical-align: middle;
 	float: left;
