@@ -101,7 +101,18 @@ top: 35px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background-color: #ddd;
-	/* margin: 25px; */
+	padding: 10px;
+}
+.works img:hover{
+	vertical-align: middle;
+	float: left;
+	max-width: 100%;
+	width: 310px;
+	height: 310px;
+	border-radius: 155px;
+	-webkit-border-radius: 155px;
+	-moz-border-radius: 155px;
+	background-color: #ddd;
 	padding: 10px;
 }
 @media (max-width: 992px) and (min-width: 768px){
