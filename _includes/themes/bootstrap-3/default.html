@@ -94,19 +94,35 @@
 	<div id="footer-scroll"></div>
     <div id="footer">
       <div class="container">
-       
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-        </p>
-        </a>
-        
+         <div class="row">
+  			<div class="col-xs-12 col-sm-4 col-md-4">
+                <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+                </p>
+            </div>    
+        	<div class="col-xs-12 col-sm-4 col-md-4">
+                <form role="form">
+                  <div class="form-group">
+                    <label for="email_block">Enter Your Email</label>
+                    <input type="email" class="form-control" id="email_block" placeholder="Enter email">
+                  </div>
+                  <div class="form-group">
+                    <label for="question_block">Enter Your Question</label>
+                    <input type="file" id="question_block">
+                    <p class="help-block">Example block-level help text here.</p>
+                  </div>
+                  <button type="submit" class="btn btn-default">Send Your Message</button>
+                </form>
+        	</div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+        		<H1>Follow Me</H1>
+            </div>    
+        </div>
+                
         <script type="text/javascript">
-		$.noConflict();
-		jQuery(document).ready(function($) {
-			$('#scrollLink').localScroll({duration:800});
-		});
-
-			
-			
+			$.noConflict();
+			jQuery(document).ready(function($) {
+				$('#scrollLink').localScroll({duration:800});
+			});
 		</script>
       </div>
     </div>
