@@ -9,6 +9,7 @@ group: navigation
 <ul>
   {% for post in site.posts %}
     <h1><a href="{{ post.url }}">{{ post.title }}</a></H1>
+	<p>{{ post.blurb }}</p>
 	<img src = "{{ post.img }}" />
   {% endfor %}
 </ul>
