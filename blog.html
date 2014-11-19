@@ -5,7 +5,7 @@ header: Blog
 group: navigation
 ---
 {% include JB/setup %}
-
+{{site.posts}}
 <div class="row">
   {% for post in site.posts %}
 		<div class="blog-container">
@@ -15,10 +15,11 @@ group: navigation
 			<div class="col-md-8">
 				<h1><a href="{{ post.url }}">{{ post.title }}</a></H1>
 				<div class="date">
-				  <span>{{ page.date | date_to_long_string }}</span>
+				  <span>span>
 				</div>
 				<p>{{ post.blurb }}</p>
 			</div>
 		</div>	
   {% endfor %}
 </div>
+
