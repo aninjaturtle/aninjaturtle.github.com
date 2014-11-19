@@ -8,11 +8,10 @@ group: navigation
 
 <div class="row">
   {% for post in site.posts %}
-  
-  		<div class="col-xs-4">
+  		<div class="col-l-4">
 			<img src = "{{ post.img }}" />
 		</div>
-		<div class="col-xs-8">
+		<div class="col-l-8">
 			<h1><a href="{{ post.url }}">{{ post.title }}</a></H1>
 			<p>{{ post.blurb }}</p>
 		</div>
