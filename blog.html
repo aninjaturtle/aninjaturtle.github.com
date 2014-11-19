@@ -6,9 +6,9 @@ group: navigation
 ---
 {% include JB/setup %}
 
-
+<div class="row">
   {% for post in site.posts %}
-  <div class="row">
+  
   		<div class="col-xs-12 col-sm-4 col-md-4">
 			<img src = "{{ post.img }}" />
 		</div>
@@ -17,3 +17,4 @@ group: navigation
 			<p>{{ post.blurb }}</p>
 		</div>
   {% endfor %}
+</div>
