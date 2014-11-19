@@ -12,8 +12,9 @@ group: navigation
 				<img src = "{{ post.img }}" />
 			</div>
 			<div class="col-md-8">
+				{{ post.date | date: "%Y" }}
 				<h1><a href="{{ post.url }}">{{ post.title }}</a></H1>			
-				{{ post.excerpt }}
+				{{ post.blurb }}
 			</div>
 		</div>	
   {% endfor %}
