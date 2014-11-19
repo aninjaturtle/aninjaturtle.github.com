@@ -49,6 +49,11 @@ top: 35px;
 .post-full .date {
   margin-bottom: 20px;
   font-weight: bold; }
+  
+/* blog container*/
+.blog-container{
+	min-height:300px;
+	}
 
 /* tag_box */
 .tag_box {
