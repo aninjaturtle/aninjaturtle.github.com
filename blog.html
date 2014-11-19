@@ -6,8 +6,11 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<h2>All Pages</h2>
+<h3>Posts</h3>
 <ul>
-{% assign pages_list = site.pages %}
-{% include JB/pages_list %}
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
 </ul>
