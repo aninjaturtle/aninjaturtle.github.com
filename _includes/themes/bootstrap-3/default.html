@@ -92,8 +92,8 @@
 
     </div>
 	<div id="footer-scroll"></div>
-    <div id="footer clearfix">
-      <div class="container">
+    <div id="footer">
+      <div class="container clearfix">
          <div class="row">
   			<div class="col-xs-12 col-sm-4 col-md-4">
                 <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
@@ -107,7 +107,7 @@
                   </div>
                   <div class="form-group">
                     <label for="question_block">Enter Your Question</label>
-                    <input type="file" id="question_block">
+                    <input type="text" id="question_block">
                     <p class="help-block">Example block-level help text here.</p>
                   </div>
                   <button type="submit" class="btn btn-default">Send Your Message</button>
