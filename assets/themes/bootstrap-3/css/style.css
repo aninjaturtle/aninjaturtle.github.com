@@ -26,7 +26,10 @@ h1, h2, h3, h4, h5, h6, body{
 .navbar-fixed-top {
 top: 35px;
 }
-
+/*page header fix */
+.page-header{
+	margin-top: 100px;
+}
 /* posts index */
 .post > h3.title {
   position: relative;
