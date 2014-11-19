@@ -12,10 +12,8 @@ group: navigation
 				<img src = "{{ post.img }}" />
 			</div>
 			<div class="col-md-8">
-				<h1><a href="{{ post.url }}">{{ post.title }}</a></H1>
-				
-				
-				<p>{{ post.excerpt }}</p>
+				<h1><a href="{{ post.url }}">{{ post.title }}</a></H1>			
+				{{ post.excerpt }}
 			</div>
 		</div>	
   {% endfor %}
