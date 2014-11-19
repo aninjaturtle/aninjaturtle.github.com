@@ -6,12 +6,9 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<h3>Posts</h3>
 <ul>
   {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  <img src = "{{ post.img }}" />
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></H1>
+	<img src = "{{ post.img }}" />
   {% endfor %}
 </ul>
