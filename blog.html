@@ -8,6 +8,7 @@ group: navigation
 {% for year in site.posts %}
 {{post.year}}
 {% endfor %}
+print
 <div class="row">
   {% for post in site.posts %}
 		<div class="blog-container">
@@ -16,9 +17,8 @@ group: navigation
 			</div>
 			<div class="col-md-8">
 				<h1><a href="{{ post.url }}">{{ post.title }}</a></H1>
-				<div class="date">
-				  <span>span>
-				</div>
+				
+				
 				<p>{{ post.blurb }}</p>
 			</div>
 		</div>	
