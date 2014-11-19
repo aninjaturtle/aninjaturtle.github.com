@@ -248,6 +248,8 @@ float: right;
 	-moz-border-radius: 200px;
 
 }
+#footer-container{
+	}
 }
 @media (max-width: 767px) and (min-width: 535px){
 	.works {
