@@ -12,6 +12,9 @@
 /* Replaced with standard BS3 Navbar */
 /*.navbar .nav {
   float: right; }*/
+body{
+	background-color:#C87A66;
+}
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
