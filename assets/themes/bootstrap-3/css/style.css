@@ -22,10 +22,14 @@ h1, h2, h3, h4 {
 }
 h1, h2, h3, h4, h5, h6, body{
   font-family:"mplus-1m",sans-serif;
+  background-image: url({{Base_Path}}/images/background-tile.jpg);
+  background-image:repeat;
+  
 }
 #footer {
   background-color: #FFCACA;
   padding: 20px 0 20px 0;
+  
 }
 .navbar-fixed-top {
 top: 35px;
