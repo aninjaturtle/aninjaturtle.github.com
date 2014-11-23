@@ -1,7 +1,7 @@
 ---
 layout: page
 title: William Dildine's Portfolio
-tagline: Always Designing
+tagline: design that inspires
 ---
 {% include JB/setup %}
 
