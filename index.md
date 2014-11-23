@@ -5,7 +5,7 @@ tagline: Always Designing
 ---
 {% include JB/setup %}
 
-<div class="container"><img src="{{BASE_PATH}}/images/background.jpg" style="margin-left:auto; margin-right:auto;"></div>
+<div class="container"><div id="image-container" style="margin-left:auto; margin-right:auto;"><img src="{{BASE_PATH}}/images/cartoon-self.png"></div>
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
