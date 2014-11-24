@@ -192,7 +192,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 }
 .works-info {
     position: absolute;
-    background: rgba(63,147,147, 0.8);
+    background: rgba(202, 123, 103, 0.9);
     width: 300px;
     height: 300px;
     border-radius: 50%;
