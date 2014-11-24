@@ -3,7 +3,7 @@ layout: post
 category : work
 tagline: A Cool 3d Project
 tags : [3d, illustration, web]
-img : {{ BASE_PATH}}work/images/w1.jpg
+img : {{ BASE_PATH }}/work/images/w1.jpg
 blurb: This is an example of how a portfolio page could look.
 
 ---
