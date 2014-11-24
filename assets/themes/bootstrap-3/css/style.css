@@ -56,8 +56,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin: 0px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-	/* color: #555; */
-	/* background-color: #000000; */
+	color: #fff;
+	background-color: none; 
 }
 /* page header fix */
 .page-header{
