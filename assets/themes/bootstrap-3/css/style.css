@@ -26,8 +26,15 @@ h1, h2, h3, h4, a {
 }
 h1, h2, h3, h4, h5, h6, a, body{
   font-family:"mplus-1m",sans-serif;
-  
-  
+}
+
+h1, .h1 {
+font-size: 50px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	line-height: 2.1;
+
 }
 #footer {
 	background-color: rgba(44, 45, 47, 0.05);
