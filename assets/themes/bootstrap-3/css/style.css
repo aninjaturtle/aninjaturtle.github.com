@@ -261,8 +261,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	-webkit-transition: .8ms;
 }
 .navbar-nav {
-float: right;
+	float: right;
 }
+#brand{
+	width: 90px;
+	height: auto;
+	float: right;
+	margin-top: -38px;
+	margin-bottom: -56px;
+	margin-left: 30px;
+};
 
 <!--image transitions-->
 
