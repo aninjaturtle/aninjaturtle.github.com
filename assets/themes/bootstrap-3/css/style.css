@@ -77,7 +77,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 	background-color: none; 
 }
 <!-- Column Overrides -->
-.b-img {
+.b-img > img{
 	max-width:100%;
 	height:auto;
 }
