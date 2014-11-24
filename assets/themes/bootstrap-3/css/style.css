@@ -253,6 +253,14 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
     opacity: 1;
 }
 
+.blog-img {
+	vertical-align: middle;
+	border-radius: 50%;
+	-webkit-filter: grayscale(70%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
 .navbar-default {
 	background-image: none;
 	background-image: none;
