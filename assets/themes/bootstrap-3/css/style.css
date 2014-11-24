@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 #footer-scroll>a:visited {
-	color:  #D0D0D0;
+	color:  #D0D0D0 !important;
 	text-decoration: none;
 }
 /* page header fix */
