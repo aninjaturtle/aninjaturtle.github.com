@@ -65,6 +65,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color: #fff;
 	background-color: none; 
 }
+
+.navbar-default .navbar-nav>li>a {
+	color: #777;
+	text-decoration: none;
+}
 /* page header fix */
 .page-header{
 	margin-top: 100px;
