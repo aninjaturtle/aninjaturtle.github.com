@@ -146,7 +146,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
   color: #FFF; }
 
   
-  .works {
+.works {
     width: 300px;
 	height: 300px;
 	border-radius: 50%;
