@@ -209,6 +209,7 @@ top: 35px;
 .navbar-default {
 	background-color: #777777;
 	border-color: #000;
+	height: 50px;
 }
 .navbar-header{
 	float:right;
