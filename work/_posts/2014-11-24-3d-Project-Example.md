@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 category : work
 tagline: A Cool 3d Project
 tags : [3d, illustration, web]

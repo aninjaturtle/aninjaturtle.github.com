@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 category : work
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
