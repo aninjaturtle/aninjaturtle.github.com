@@ -82,7 +82,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 	}
 /* page header fix */
 .page-header{
-	margin-top: 175px;
+	margin-top: 200px;
 	border-bottom: none;
 }
 /* posts index */
@@ -281,9 +281,10 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 }
 
 #homepage-img{
-	float:right;
+	float: right;
 	position: relative;
-	top: -175px;
+	top: -202px;
+	right: 31px;
 }
 
 <!--image transitions-->
