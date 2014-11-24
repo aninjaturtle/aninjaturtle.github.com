@@ -170,15 +170,11 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 .works:hover {
 	-webkit-filter: grayscale(0%);
 	-moz-filter: grayscale(0%);
-	filter: grayscale(0%);
-	 -webkit-filter: blur(0px);     
-    filter: blur(0px);      
+	filter: grayscale(0%);   
 }
 
 .works-img1 { 
-	background-image: url(images/1.jpg);
-	 -webkit-filter: blur(10px);     
-    filter: blur(10px);      
+	background-image: url(images/1.jpg);  
 }
 .works-img2 { 
 	background-image: url(images/2.jpg);
