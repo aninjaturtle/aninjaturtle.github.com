@@ -88,6 +88,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 .page-header{
 	margin-top: 200px;
 	border-bottom: none;
+	padding-bottom: 65px;
 }
 /* posts index */
 .post > h3.title {
