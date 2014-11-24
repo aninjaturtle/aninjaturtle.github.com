@@ -275,6 +275,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 #homepage-img{
 	float:right;
+	position: relative;
+	top: -175px;
 }
 
 <!--image transitions-->
