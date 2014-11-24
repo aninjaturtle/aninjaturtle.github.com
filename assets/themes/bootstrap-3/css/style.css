@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	background-color: none; 
 }
 
-.navbar-default .navbar-nav>li>a:visited {
+#footer-scroll a:visited {
 	color:  #D0D0D0;
 	text-decoration: none;
 }
