@@ -78,8 +78,8 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 }
 <!-- Column Overrides -->
 
-.col-xs-3 .b-img{
-	max-width:100%;
+.col-xs-3 img{
+	width: 100%;
 	height:auto;
 }
 
