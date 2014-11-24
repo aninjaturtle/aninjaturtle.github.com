@@ -84,7 +84,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 }
 
 #footer-contact{
-	font-size: 2em;
+	font-size: 1.5em;
 	text-transform: uppercase;
 	color: #6B6B6B;
 	-webkit-transition: .8ms;
@@ -294,7 +294,7 @@ label{
 	float:right;
 }
 .navbar-default .navbar-nav>li>a{
-	font-size:2em;
+	font-size:1.4em;
 	text-transform:uppercase;
 	color: #D0D0D0;
 	-webkit-transition: .8ms;
