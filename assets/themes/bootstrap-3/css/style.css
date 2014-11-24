@@ -35,8 +35,12 @@ font-size: 50px;
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	line-height: 2.1;
-
 }
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+	font-weight: 200;
+	}
+	
 #footer {
 	background-color: rgba(44, 45, 47, 0.05);
 	padding: 20px 0 20px 0;
