@@ -11,8 +11,8 @@ group: navigation
   <div class="col-xs-12 col-sm-4 col-md-4">
   	<div class="works" style="background-image: url({{ post.img }});">
         <div class="works-info">
-            <h3>{{ post.title }}</h3>
-            <p><a href="{{ post.url }}">{{ post.blurb }}</p>
+            <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+            <p>{{ post.blurb }}</p>
         </div>
     </div>
   </div>
