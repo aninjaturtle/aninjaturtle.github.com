@@ -76,6 +76,11 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 	color: #fff;
 	background-color: none; 
 }
+<!-- Column Overrides -->
+.col-xs-3 img {
+	max-width:100%;
+	height:auto;
+	}
 
 #footer-contact{
 	font-size: 2em;
