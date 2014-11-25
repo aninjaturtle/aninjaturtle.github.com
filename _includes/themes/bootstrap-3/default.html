@@ -46,6 +46,8 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="{{ BASE_PATH }}/scripts/jquery.localScroll.js"></script>
     <script src="{{ BASE_PATH }}/scripts/jquery.scrollTo.js"></script>
+	<script src="http://www.parsecdn.com/js/parse-1.2.16.min.js"></script>
+    <script src="{{ BASE_PATH }}/scripts/emailer.js"></script>
     
      
   </head>
@@ -102,15 +104,14 @@
             </div>    
         	<div class="col-xs-12 col-sm-4 col-md-4">
 				<H3>Contact Me</H3>
-                <form role="form" action="http://forms.brace.io/wpdildine@gmail.com" method="post">
+                <form id="myForm" role="form" >
                   <div class="form-group">
                     <label for="email_block">Enter Your Email</label>
-                    <input type="email" name="_replyto" class="form-control" id="email_block" placeholder="Enter email">
-                  
+                    <input type="email" name="email" class="form-control" id="email_block" placeholder="Enter email">                 
                     <label for="question_block">Enter Your Question</label>
-                    <input type="text" class="form-control input-lg" rows="3" id="question_block">
+                    <textarea  name="question" class="form-control" rows="3" cols="10" id="question_block" placeholder="Your Question.">
                   </div>
-                  <button type="submit" class="btn btn-default" value="Send">Send Your Message</button>
+                  <button type="submit" class="btn btn-default">Send Your Message</button>
                 </form>
         	</div>
             <div class="col-xs-12 col-sm-4 col-md-4">
