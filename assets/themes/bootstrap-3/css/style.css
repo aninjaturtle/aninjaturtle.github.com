@@ -327,6 +327,10 @@ label{
 	background-image: none !important;
 	border: 1px solid #000 !important;
 	}
+	
+textarea{
+	width:100%;
+}	
 <!--image transitions-->
 
 @media (max-width: 992px) and (min-width: 768px){
