@@ -74,9 +74,10 @@
           <ul class="nav navbar-nav">
             {% assign pages_list = site.pages %}
             <li><a href="#footer-scroll" id="footer-contact">Contact</a></li>
-            {% assign group = 'navigation' %}         
-            {% include JB/pages_list %}
-            
+            {% assign group = 'navigation' %}
+			<div class="page-fade">
+				{% include JB/pages_list %}
+            </div>
           </ul>
           <!--<form class="navbar-form navbar-right" role="search">
             <div class="form-group">
@@ -126,7 +127,7 @@
 				$('#scrollLink').localScroll({duration:800});
 				$('body').css('display', 'none');
 				$('body').fadeIn(1000);
-				$('.navbar-default .navbar-nav>li>a').click(function() {
+				$('.page-fade').click(function() {
 
 					event.preventDefault();
 
