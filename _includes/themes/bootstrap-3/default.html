@@ -126,15 +126,13 @@
 				$('#scrollLink').localScroll({duration:800});
 				$('body').css('display', 'none');
 				$('body').fadeIn(1000);
-				
-<<<<<<< HEAD
 				$('.navbar-default .navbar-nav>li>a').click(function() {
 
 					event.preventDefault();
 
 					newLocation = this.href;
 
-					$('.container').fadeOut(1000, newpage);
+					$('body').fadeOut(1000, newpage);
 
 					});
 
@@ -143,9 +141,6 @@
 					window.location = newLocation;
 
 				}
-				
-=======
->>>>>>> parent of 45ccd34... update
 			});
 		</script>
       </div>
