@@ -73,11 +73,10 @@
         <div class="collapse navbar-collapse" id="jb-navbar-collapse">
           <ul class="nav navbar-nav">
             {% assign pages_list = site.pages %}
-            <li><a href="#footer-scroll" id="footer-contact">Contact</a></li>
-            {% assign group = 'navigation' %}
-			<div class="page-fade">
-				{% include JB/pages_list %}
-            </div>
+            <li><a href="#footer-scroll" class="footer-contact">Contact</a></li>
+            {% assign group = 'navigation' %}         
+            {% include JB/pages_list %}
+            
           </ul>
           <!--<form class="navbar-form navbar-right" role="search">
             <div class="form-group">
@@ -127,20 +126,20 @@
 				$('#scrollLink').localScroll({duration:800});
 				$('body').css('display', 'none');
 				$('body').fadeIn(1000);
-				$('.page-fade').click(function() {
+				
+				if ('.navbar-default .navbar-nav>li>a').hasClass(".footer-contact"){
+				}
+				else{		
+					$('.navbar-default .navbar-nav>li>a').click(function() {
 
-					event.preventDefault();
+						event.preventDefault();
+						newLocation = this.href;
+						$('body').fadeOut(1000, newpage);
+						});
+						function newpage() {
+							window.location = newLocation;
 
-					newLocation = this.href;
-
-					$('body').fadeOut(1000, newpage);
-
-					});
-
-					function newpage() {
-
-					window.location = newLocation;
-
+						}
 				}
 			});
 		</script>
