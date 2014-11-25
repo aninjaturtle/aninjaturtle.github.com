@@ -321,7 +321,12 @@ label{
 	top: -202px;
 	right: 31px;
 }
-
+<!--Forms-->
+.form-control{
+	background-color: rgba(0, 0, 0, 0.36) !important;
+	background-image: none !important;
+	border: 1px solid #000 !important;
+	}
 <!--image transitions-->
 
 @media (max-width: 992px) and (min-width: 768px){
