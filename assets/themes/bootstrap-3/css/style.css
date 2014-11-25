@@ -83,7 +83,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 	height:auto;
 }
 
-#footer-contact{
+.footer-contact{
 	font-size: 1.5em;
 	text-transform: uppercase;
 	color: #6B6B6B;
