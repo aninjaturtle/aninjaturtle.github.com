@@ -409,8 +409,8 @@ button.btn.btn-default:hover{
 #footer-container{
 	}
 }
-@media (max-width: 767px) and (min-width: 535px){
-	.works {
+@media (max-width: 767px) and (min-width: 200px){
+.works {
     width: 400px;
 	height: 400px;
 	border-radius: 200px;
@@ -432,8 +432,8 @@ button.btn.btn-default:hover{
 
 }
 .blog-img {
-margin-top: 0px;
-margin-left: 0px;
-width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 100%;
 }
 }
