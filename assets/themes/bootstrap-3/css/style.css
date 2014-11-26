@@ -431,4 +431,9 @@ button.btn.btn-default:hover{
 	-moz-border-radius: 200px;
 
 }
+.blog-img {
+margin-top: 0px;
+margin-left: 0px;
+width: 100%;
+}
 }
