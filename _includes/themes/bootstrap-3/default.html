@@ -48,6 +48,7 @@
     <script src="{{ BASE_PATH }}/scripts/jquery.scrollTo.js"></script>
 	<script src="http://www.parsecdn.com/js/parse-1.2.16.min.js"></script>
     <script src="{{ BASE_PATH }}/scripts/emailer.js"></script>
+	<script src="{{ BASE_PATH }}/scripts/_main.js"></script>
     
      
   </head>
@@ -123,35 +124,7 @@
 				<a href="https://plus.google.com/u/0/+WilliamDildine/posts"><img src="{{BASE_PATH}}/images/social_logos_02.png" alt="Google Plus" style="opacity:.7;width:24.333%;margin:3%;float:left;height:auto;"></a>
 				<a href="https://dribbble.com/wpdildine"><img src="{{BASE_PATH}}/images/social_logos_03.png" style="opacity:.7;width:24.333%;margin:3%;float:left;height:auto;" alt="Dribble"></a>
             </div>    
-        </div>
-                
-        <script type="text/javascript">
-			$.noConflict();
-			jQuery(document).ready(function($) {
-				$('#scrollLink').localScroll({duration:800});
-				$('body').css('display', 'none');
-				$('body').fadeIn(1000);
-
-				
-				$('.navbar-default .navbar-nav>li>a').click(function(e) {
-						var target = $(e.target);
-						if (target.is(".footer-contact")  == false){
-							event.preventDefault();
-							newLocation = this.href;
-							$('body').fadeOut(1000, newpage);
-							function newpage() {
-								window.location = newLocation;
-								}
-							}
-				});
-				
-                
-								
-					
-				
-					
-			});
-		</script>
+        </div>              
       </div>
     </div>
 
