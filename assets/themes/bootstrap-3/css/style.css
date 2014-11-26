@@ -53,6 +53,8 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 	-webkit-box-shadow: inset 0 1px 134px rgba(0, 0, 0, 0.5),0 1px 5px rgba(0,0,0,0.075);
 	box-shadow: inset 0 1px 134px rgba(0, 0, 0, 0.5),0 1px 5px rgba(0,0,0,0.075);
 	border-top: rgba(0, 0, 0, 0.11) 1px solid;
+	margin-top: 175px;
+
   
 }
 .navbar-fixed-top {
@@ -355,11 +357,6 @@ button.btn.btn-default:hover{
 	background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0) 0,rgba(224, 224, 224, 0) 100%);
 	border: 1px solid #000;
 }
-	
-<!--page adjustments -->
-div.row.post-full{
-	min-height:800px;
-	}
 	
 <!--image transitions-->
 
