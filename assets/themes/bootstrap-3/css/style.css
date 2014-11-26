@@ -331,11 +331,21 @@ label{
 textarea.form-control{
 	background-color: rgba(0, 0, 0, 0.23) !important; 
 	border: 1px solid #000;
+	width:100%;
+}
+
+text.form-control{
+	background-color: rgba(0, 0, 0, 0.23) !important; 
+	border: 1px solid #000;
+	width:100%;
+}
+email.form-control{
+	background-color: rgba(0, 0, 0, 0.23) !important; 
+	border: 1px solid #000;
+	width:100%;
 }
 	
-textarea{
-	width:100%;
-}	
+
 <!--image transitions-->
 
 @media (max-width: 992px) and (min-width: 768px){
