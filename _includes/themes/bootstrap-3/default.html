@@ -131,20 +131,24 @@
 				$('#scrollLink').localScroll({duration:800});
 				$('body').css('display', 'none');
 				$('body').fadeIn(1000);
+
 				
-				if ($(".navbar-default").is("#footer-contact") == false){
-				
-				$('.navbar-default .navbar-nav>li>a').click(function() {
+				$('.navbar-default .navbar-nav>li>a').click(function(e) {
+						var target = $(e.target);
+						if (target.is("#footer-contact")){
+						}
+						else{
 						event.preventDefault();
 						newLocation = this.href;
 						$('body').fadeOut(1000, newpage);
 						function newpage() {
 							window.location = newLocation;
+							}
 						}
-					});
-				}
-                else{
-				}				
+				});
+				
+                
+								
 					
 				
 					
