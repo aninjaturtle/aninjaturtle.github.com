@@ -334,12 +334,12 @@ textarea.form-control{
 	width:100%;
 }
 
-text.form-control{
+input#text.form-control{
 	background-color: rgba(0, 0, 0, 0.23) !important; 
 	border: 1px solid #000;
 	width:100%;
 }
-email.form-control{
+input#email.form-control{
 	background-color: rgba(0, 0, 0, 0.23) !important; 
 	border: 1px solid #000;
 	width:100%;
