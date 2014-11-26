@@ -356,7 +356,11 @@ button.btn.btn-default:hover{
 	border: 1px solid #000;
 }
 	
-
+<!--page adjustments -->
+div.row.post-full{
+	min-height:800px;
+	}
+	
 <!--image transitions-->
 
 @media (max-width: 992px) and (min-width: 768px){
