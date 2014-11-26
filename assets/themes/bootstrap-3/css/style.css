@@ -406,8 +406,11 @@ button.btn.btn-default:hover{
 	-moz-border-radius: 200px;
 
 }
-#footer-container{
-	}
+.blog-img {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 100%;
+}
 }
 @media (max-width: 767px) and (min-width: 200px){
 .works {
