@@ -48,7 +48,6 @@
     <script src="{{ BASE_PATH }}/scripts/jquery.scrollTo.js"></script>
 	<script src="http://www.parsecdn.com/js/parse-1.2.16.min.js"></script>
     <script src="{{ BASE_PATH }}/scripts/emailer.js"></script>
-	<script src="{{ BASE_PATH }}/scripts/main.js"></script>
     
      
   </head>
@@ -127,7 +126,27 @@
         </div>              
       </div>
     </div>
-	
+	<script>
+	$.noConflict();
+	jQuery(document).ready(function($) {
+		$('#scrollLink').localScroll({duration:800});
+		$('body').css('display', 'none');
+		$('body').fadeIn(1000);
+
+		
+		$('.navbar-default .navbar-nav>li>a').click(function(e) {
+				var target = $(e.target);
+				if (target.is(".footer-contact")  == false){
+					event.preventDefault();
+					newLocation = this.href;
+					$('body').fadeOut(1000, newpage);
+					function newpage() {
+						window.location = newLocation;
+						}
+					}
+		});					
+	});
+	</script>
     {% include JB/analytics %}
 
 
