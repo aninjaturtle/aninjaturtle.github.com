@@ -5,7 +5,7 @@ tagline: designed to inspire.
 ---
 {% include JB/setup %}
 
-<div class="container"><img src="{{BASE_PATH}}/images/cartoon-self.png" id="homepage-img"></div>
+<div class="container"><div id="homepage-img"><img src="{{BASE_PATH}}/images/cartoon-self.png"></div></div>
 
 
 
