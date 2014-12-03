@@ -24,6 +24,9 @@ p{
 h1, h2, h3, h4, a {
   color: #CA7B67;
 }
+hr{
+border-top: 1px solid rgba(0, 0, 0, 0.11);
+}
 h1, h2, h3, h4, h5, h6, a, body{
   font-family: "source-sans-pro",sans-serif;
   font-weight:200;
