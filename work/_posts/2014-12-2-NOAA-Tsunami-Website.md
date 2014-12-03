@@ -3,7 +3,7 @@ layout: work
 category : work
 tagline: NOAA Tsunami Website
 tags : [illustration, web]
-img : /images/work/w2jpg
+img : /images/work/w2.jpg
 img-sm : /images/work/w2s.jpg
 blurb: NOAA Tsunami Redesign
 
