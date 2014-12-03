@@ -318,11 +318,15 @@ label{
 }
 
 #homepage-img{
-	float: right;
 	position: relative;
-	top: -202px;
-	right: 31px;
+	top: -150px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
+#homepage-img .img{
+	width:50%;
+	}
 <!--Forms-->
 
 .form-control{
