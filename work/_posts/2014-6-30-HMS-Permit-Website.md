@@ -3,8 +3,8 @@ layout: work
 category : work
 tagline: Conceptual Redesign of the HMS Website
 tags : [illustration, web]
-img : /images/work/w1s.jpg
-img-sm : /images/work/w1.jpg
+img : /images/work/w1.jpg
+img-sm : /images/work/w1s.jpg
 blurb: HMS Redesign
 
 ---
