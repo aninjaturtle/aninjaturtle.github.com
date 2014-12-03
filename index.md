@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landing_page
 title: William Patrick Dildine
 tagline: designed to inspire.
 ---

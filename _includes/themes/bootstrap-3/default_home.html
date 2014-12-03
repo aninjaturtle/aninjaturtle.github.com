@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    
+    <!-- adobe  typekit -->
+    <script src="//use.typekit.net/inp3nzw.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="{{ BASE_PATH }}/scripts/jquery.localScroll.js"></script>
+    <script src="{{ BASE_PATH }}/scripts/jquery.scrollTo.js"></script>
+	<script src="http://www.parsecdn.com/js/parse-1.2.16.min.js"></script>
+    <script src="{{ BASE_PATH }}/scripts/emailer.js"></script>
+    
+     
+  </head>
+
+  <body>
+    <div id="wrap">
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="{{ HOME_PATH }}" style="float:left;"><img src="{{ HOME_PATH}}images/brand.png" id="brand"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="scrollLink">
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+            {% assign pages_list = site.pages %}
+            <li><a href="#footer-scroll" class="footer-contact">Contact</a></li>
+            {% assign group = 'navigation' %}         
+            {% include JB/pages_list %}
+            
+          </ul>
+          <!--<form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>-->
+        </div><!-- /.navbar-collapse -->
+        </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        {{ content }}
+      </div>
+
+    </div>
+	<div id="footer-scroll"></div>
+    <div id="footer" class="clearfix">
+      <div class="container">
+         <div class="row">
+  			<div class="col-xs-12 col-sm-4 col-md-4">
+				<H3>About Me</H3>
+                <p>William Patrick Dildine is a multimedia design professional specializing in 3D visualization and fabrication, web design, photography, and illustration. He currently instructs at TechShop, a design and fabrication space, in DC-Arlington, and freelance designs websites. </p>
+				<p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+                </p>
+            </div>    
+        	<div class="col-xs-12 col-sm-4 col-md-4">
+				<H3>Contact Me</H3>
+                <form id="myForm" role="form" >
+                  <div class="form-group">
+					<label for="name_block">Enter Your Name</label>
+                    <input type="text"  class="form-control" id="name" placeholder="Enter Name">            
+                    <label for="email_block">Enter Your Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter Email">                 
+                    <label for="question_block">Enter Your Question</label>
+                    <textarea class="form-control" rows="5" cols="1" id="message" placeholder="Your Question."></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-default">Send Your Message</button>
+                </form>
+        	</div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+        		<H3>Follow Me</H3>
+				<a href="https://ello.co/toomanyninjas"><img src="{{BASE_PATH}}/images/social_logos_01.png" alt="Ello"  style="opacity:.7;width:24.333%;margin:3%;float:left;height:auto;"></a>
+				<a href="https://plus.google.com/u/0/+WilliamDildine/posts"><img src="{{BASE_PATH}}/images/social_logos_02.png" alt="Google Plus" style="opacity:.7;width:24.333%;margin:3%;float:left;height:auto;"></a>
+				<a href="https://dribbble.com/wpdildine"><img src="{{BASE_PATH}}/images/social_logos_03.png" style="opacity:.7;width:24.333%;margin:3%;float:left;height:auto;" alt="Dribble"></a>
+            </div>    
+        </div>              
+      </div>
+    </div>
+	<script>
+	$.noConflict();
+	jQuery(document).ready(function($) {
+		$('#scrollLink').localScroll({duration:800});
+		$('body').css('display', 'none');
+		$('body').fadeIn(1000);
+
+		
+		$('.navbar-default .navbar-nav>li>a').click(function(e) {
+				var target = $(e.target);
+				if (target.is(".footer-contact")  == false){
+					event.preventDefault();
+					newLocation = this.href;
+					$('body').fadeOut(1000, newpage);
+					function newpage() {
+						window.location = newLocation;
+						}
+					}
+		});					
+	});
+	</script>
+    {% include JB/analytics %}
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
