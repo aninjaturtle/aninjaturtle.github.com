@@ -5,7 +5,7 @@ tagline: Future-Retro Typography
 tags : [illustration, typography]
 img : /images/work/lg1.jpg
 img-lg : /images/work/lg1.jpg
-blurb: Simple Retro Typography Design.
+blurb: Simple Retro Typography
 
 ---
 {% include JB/setup %}
