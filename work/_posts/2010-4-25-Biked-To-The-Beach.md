@@ -3,7 +3,7 @@ layout: work
 category : work
 tagline: Future-Retro Typography
 tags : [illustration, typography]
-img : /images/work/lg1.jpg
+img : /images/work/lg1s.jpg
 img-lg : /images/work/lg1.jpg
 blurb: Simple Retro Typography
 
