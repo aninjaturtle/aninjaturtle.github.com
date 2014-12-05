@@ -374,14 +374,15 @@ label{
 	min-height:679px;
 }
 .computer-container{
-	max-height: 431px;
-	width: 96%;
+	max-height: 63%;
+	width: 94%;
 	margin-right: auto;
 	margin-left: auto;
 	overflow: auto;
-	padding-left: 3%;
+	padding-left: 5%;
 	padding-right: 1%;
 	margin-top: 4%;
+	position: absolute;
 	}
 ::-webkit-scrollbar {
     width: 12px;
@@ -435,11 +436,6 @@ button.btn.btn-default:hover{
 }
 <!--image transitions-->
 
-@media (max-width: 1199px) and (min-width: 992px){
-.computer-container{
-	max-height: 353px !important;
-}
-}
 @media (max-width: 991px) and (min-width: 768px){
 	
 	.computer-container {
