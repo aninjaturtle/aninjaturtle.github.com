@@ -67,13 +67,6 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 	margin-top: 175px;
 }
 
-body { 
-    transition:all .2s linear; 
-    -o-transition:all .2s linear; 
-    -moz-transition:all .2s linear; 
-    -webkit-transition:all .2s linear;
-}
-
 .navbar-fixed-top {
 	top: 35px;
 }
