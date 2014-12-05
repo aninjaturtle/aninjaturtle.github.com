@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: work_web
 category : work
 tagline: NOAA Tsunami Website
 tags : [illustration, web]
