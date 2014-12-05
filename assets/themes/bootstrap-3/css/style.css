@@ -67,7 +67,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 	margin-top: 175px;
 }
 
-.col-xs-12 .col-sm-6 .col-md-4 {
+h1{
     -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
     -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
     -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
