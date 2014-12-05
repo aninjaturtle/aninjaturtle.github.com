@@ -435,7 +435,9 @@ button.btn.btn-default:hover{
 	border: 1px solid #000;
 }
 <!--image transitions-->
-
+.b-img{
+	border: 1px solid #717171;
+	}
 @media (max-width: 991px) and (min-width: 768px){
 	
 
