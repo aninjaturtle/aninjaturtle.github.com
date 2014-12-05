@@ -347,22 +347,21 @@ label{
 
 .computer-website{
 	width: 100%;
-	z-index: 1000;
+	overflow:hidden;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	min-height:564px;
 }
 .computer-container{
-	z-index: -9999;
 	height: 418px;
-	overflow: hidden;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
 	top: -4px;
-	padding: 52px;
-	overflow-y:scroll;
+	overflow:auto;
+	padding-left: 5%;
+	padding-right: 5%;
 	}
 <!--Forms-->
 
