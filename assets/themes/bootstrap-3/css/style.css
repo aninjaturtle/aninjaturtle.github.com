@@ -435,16 +435,16 @@ button.btn.btn-default:hover{
 }
 <!--image transitions-->
 
-@media (max-width: 1199px) and (min-width: 993px){
+@media (max-width: 1199px) and (min-width: 992px){
 .computer-container{
 	max-height: 353px !important;
 }
 }
-@media (max-width: 992px) and (min-width: 768px){
+@media (max-width: 991px) and (min-width: 768px){
 	
-.computer-container {
-max-height: 411px;
-}
+	.computer-container {
+	max-height: 411px;
+	}
 	.works {
 	width: 200px;
 	height: 200px;
