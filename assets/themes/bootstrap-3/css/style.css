@@ -354,7 +354,7 @@ label{
 }
 .computer-container{
 	max-height: 431px;
-	width: 100%;
+	width: 96%;
 	margin-right: auto;
 	margin-left: auto;
 	overflow: auto;
@@ -363,7 +363,7 @@ label{
 	margin-top: 4%;
 	}
 ::-webkit-scrollbar {
-
+    width: 12px;
 }
  
 ::-webkit-scrollbar-track {
