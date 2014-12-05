@@ -353,15 +353,14 @@ label{
 	min-height:564px;
 }
 .computer-container{
-	height: 418px;
+	max-height: 358px;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	position: relative;
-	top: 53px;
-	overflow:auto;
-	padding-left: 5%;
-	padding-right: 5%;
+	overflow: auto;
+	padding-left: 7.5%;
+	padding-right: 4.5%;
+	margin-top: 7%;
 	}
 <!--Forms-->
 
