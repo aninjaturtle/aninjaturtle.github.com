@@ -386,7 +386,7 @@ position: absolute;
 height: 76%;
 	}
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 5px;
 	color:#000;
 }
  
