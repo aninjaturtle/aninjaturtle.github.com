@@ -1,5 +1,5 @@
 ---
-layout: work_web
+layout: work
 category : work
 tagline: B2B Vinyl Wrap
 tags : [illustration, branding]

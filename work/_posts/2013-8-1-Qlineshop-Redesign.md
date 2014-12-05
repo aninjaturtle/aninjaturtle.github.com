@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: work_web
 category : work
 tagline: Qlineshop Redesign
 tags : [illustration, website, photography]

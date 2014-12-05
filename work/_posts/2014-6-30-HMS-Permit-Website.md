@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: work_web
 category : work
 tagline: Conceptual Redesign of the HMS Website
 tags : [illustration, web]
