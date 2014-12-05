@@ -368,7 +368,7 @@ label{
 
 .computer-website{
 	width: 100%;
-	overflow:hidden;
+	overflow:auto;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	min-height:679px;
