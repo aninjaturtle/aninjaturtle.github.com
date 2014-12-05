@@ -358,8 +358,8 @@ label{
 	margin-right: auto;
 	margin-left: auto;
 	overflow: auto;
-	padding-left: 5%;
-	padding-right: 3%;
+	padding-left: 3%;
+	padding-right: 1%;
 	margin-top: 4%;
 	}
 ::-webkit-scrollbar {
