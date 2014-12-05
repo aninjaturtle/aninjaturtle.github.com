@@ -429,9 +429,6 @@ button.btn.btn-default:hover{
 	max-height: 353px;
 }
 }
-
-
-
 @media (max-width: 992px) and (min-width: 768px){
 	.works {
 	width: 200px;
