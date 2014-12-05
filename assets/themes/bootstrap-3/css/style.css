@@ -439,9 +439,7 @@ button.btn.btn-default:hover{
 
 @media (max-width: 991px) and (min-width: 768px){
 	
-	.computer-container {
-	max-height: 411px;
-	}
+
 	.works {
 	width: 200px;
 	height: 200px;
