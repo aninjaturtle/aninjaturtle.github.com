@@ -350,7 +350,7 @@ label{
 	z-index: 1000;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	min-height:564;
+	min-height:564px;
 }
 .computer-container{
 	z-index: -9999;
