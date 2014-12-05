@@ -38,6 +38,7 @@ border-top: 1px solid rgba(0, 0, 0, 0.11);
 h1, h2, h3, h4, h5, h6, a, body{
   font-family: "source-sans-pro",sans-serif;
   font-weight:200;
+  
 }
 a:hover	{
 	text-decoration:none;
@@ -45,13 +46,6 @@ a:hover	{
 
 h1, .h1 {
 font-size: 50px;
-}
-.col-xs-12 .col-sm-6 .col-md-4{
-	font-size: 1.74em !important;
-	transition:all .2s linear !important; 
-    -o-transition:all .2s linear !important; 
-    -moz-transition:all .2s linear !important; 
-    -webkit-transition:all .2s linear  !important;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -61,7 +55,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
 	font-weight: 200;
 	}
-	
+.cols-md-4{
+width:100%
+}	
 #footer {
 	background-color: rgba(44, 45, 47, 0.05);
 	padding: 20px 0 20px 0;
