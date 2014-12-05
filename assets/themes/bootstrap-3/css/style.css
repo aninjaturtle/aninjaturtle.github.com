@@ -350,12 +350,19 @@ label{
 	z-index: 1000;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	min-height:564;
 }
-.computer-website-image{
-	margin-left:auto;
-	margin-right:auto;
-	max-height:300px;
-	overflow:hidden;
+.computer-container{
+	z-index: -9999;
+	height: 418px;
+	overflow: hidden;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: -4px;
+	padding: 52px;
+	overflow-y:scroll;
 	}
 <!--Forms-->
 
