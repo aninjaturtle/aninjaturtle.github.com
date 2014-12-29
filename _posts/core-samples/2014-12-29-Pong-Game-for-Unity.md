@@ -1,10 +1,10 @@
 ---
 layout: game
 category : blog
-tagline: Experiments with Unity 3D
+tagline: Unity 3D Pong
 tags : [unity3D ]
-img : /images/blog/b1.png
-blurb: Just a quick attempt at building a pong game.
+img : /images/blog/b2.png
+blurb: Experiments with Unity3D
 ---
 {% include JB/setup %}
 <div class="content">
