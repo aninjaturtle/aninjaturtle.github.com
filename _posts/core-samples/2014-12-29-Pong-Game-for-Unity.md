@@ -9,7 +9,7 @@ blurb: Experiments with Unity3D
 {% include JB/setup %}
 
 ##Pong Built in Unity3D
-You can use the W/S and the Up and Down Arrows to control the two paddles.
+Use the W and S keys to move Up and Down on the left side and the up and down arrows to control the right side.
 
 <div class="content">
 	<div id="unityPlayer">

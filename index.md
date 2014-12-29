@@ -1,7 +1,7 @@
 ---
 layout: landing_page
 title: William Patrick Dildine
-tagline: designed to inspire.
+tagline: design to inspire.
 ---
 {% include JB/setup %}
 
