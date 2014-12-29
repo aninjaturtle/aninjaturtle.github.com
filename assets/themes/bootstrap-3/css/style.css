@@ -100,7 +100,10 @@ div#unityPlayer {
 	height: 100%;
 	width:100%
 }
-
+embed {
+	width:100% !important;
+	height:auto;
+}
 /*nav*/
 .navbar-fixed-top {
 	top: 35px;
