@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: game
 category : blog
 tagline: Experiments with Unity 3D
 tags : [unity3D ]
@@ -8,16 +8,16 @@ blurb: Just a quick attempt at building a pong game.
 ---
 {% include JB/setup %}
 <div class="content">
-		<div id="unityPlayer">
-			<div class="missing">
-				<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
-					<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
-				</a>
-			</div>
-			<div class="broken">
-				<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
-					<img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
-				</a>
-			</div>
+	<div id="unityPlayer">
+		<div class="missing">
+			<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+				<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+			</a>
+		</div>
+		<div class="broken">
+			<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
+				<img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
+			</a>
 		</div>
 	</div>
+</div>
