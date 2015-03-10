@@ -4,7 +4,7 @@ category : work
 tagline: Icongraphy
 tags : [illustration, icons]
 img : /images/work/9i.jpg
-img-sm : /images/work/9is.jpg
+img-sm : /images/work/9is.png
 blurb: Iconography for a Health Website
 
 ---
