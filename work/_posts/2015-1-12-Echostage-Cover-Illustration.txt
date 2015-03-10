@@ -3,8 +3,8 @@ layout: work
 category : work
 tagline: Echostage Cover
 tags : [illustration, typography]
-img : /images/work/11is.jpg
-img-sm : /images/work/11i.jpg
+img : /images/work/11i.jpg
+img-sm : /images/work/11is.jpg
 blurb: Echostage Marketing Packet Cover
 
 ---
