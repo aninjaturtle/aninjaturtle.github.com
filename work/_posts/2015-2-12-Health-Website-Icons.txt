@@ -1,0 +1,14 @@
+---
+layout: work
+category : work
+tagline: Icongraphy
+tags : [illustration, icons]
+img : /images/work/9i.jpg
+img-sm : /images/work/9is.jpg
+blurb: Iconography for a Health Website
+
+---
+{% include JB/setup %}
+##Iconography for a Children's Health Program Website
+
+This series of icons was developed in parallel was Google's release of their Material Design standards.  I will be releasing the full design after the website has been launched.
