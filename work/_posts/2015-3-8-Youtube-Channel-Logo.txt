@@ -1,7 +1,7 @@
 ---
 layout: work
 category : work
-tagline: Iconography
+tagline: Iconography for Youtube
 tags : [illustration]
 img : /images/work/10i.jpg
 img-sm : /images/work/10is.jpg
