@@ -9,3 +9,4 @@ blurb:  Searching for a quick way to test a variety of different javascript snip
 {% include JB/setup %}
 
 ##Test
+<script async="async" src="//codepen.io/assets/embed/ei.js"></script>
