@@ -1,15 +1,15 @@
 ---
 layout: post
 category : blog
-tagline: Javascript Test Environment
-tags : [html5]
+tagline: THREE.js Spot Light Test Screen
+tags : [html5, three.js]
 img : /images/blog/b3.png
-blurb:  Searching for a quick way to test a variety of different javascript snippits.
+blurb:  Creating a test Environment for the Different Variables Available on a Spot Light
 ---
 {% include JB/setup %}
 
-##Test
+##A Test Screen for Enabling and Seeing Different Variables Available on a Spot Light Object
 
 
-<p data-height="268" data-theme-id="0" data-slug-hash="ZYqKGb" data-default-tab="result" data-user="ettrics" class='codepen'>See the Pen <a href='http://codepen.io/ettrics/pen/ZYqKGb/'>Expanding Column Layout</a> by Ettrics (<a href='http://codepen.io/ettrics'>@ettrics</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="268" data-theme-id="0" data-slug-hash="Eadzqb" data-default-tab="result" data-user="wpdildine" class='codepen'>See the Pen <a href='http://codepen.io/wpdildine/pen/Eadzqb/'>Eadzqb</a> by Patrick (<a href='http://codepen.io/wpdildine'>@wpdildine</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
