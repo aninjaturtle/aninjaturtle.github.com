@@ -11,4 +11,4 @@ blurb: Youtube Channel Logo
 {% include JB/setup %}
 ## Mad Dog Tutorials
 
-A quick logo design for the recent launch of a tutorial series of mine webGL for Youtube.
+Logo design for the recent launch of a tutorial series on webGL for Youtube.

@@ -10,5 +10,6 @@ blurb: Bike to the Beach Website
 ---
 {% include JB/setup %}
 ## Bike to the Beach Website
-This website was designed for Bike to the Beach.  
+
+Designed for Bike to the Beach.  
 

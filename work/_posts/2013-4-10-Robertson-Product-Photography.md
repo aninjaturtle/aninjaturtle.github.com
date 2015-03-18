@@ -11,4 +11,4 @@ blurb: Robertson Square Drive Screws
 {% include JB/setup %}
 ##Robertson Advertising
 
-These were shots taken for advertising Robertson square drive screws.  It is unfortunate that most people will not ever have the opportunity to use a square drive screw.  My brief experience made me wonder why these are not the standard.  
+Shots taken for advertising Robertson square drive screws.

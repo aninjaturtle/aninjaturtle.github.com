@@ -11,5 +11,5 @@ blurb: Echostage Marketing Packet Cover
 {% include JB/setup %}
 ##Marketing Packet Cover Illustration
 
-This cover was done for a package that was designed to be one part technical and one part marketing.    
+Cover for a package designed to be part technical and part marketing.    
 

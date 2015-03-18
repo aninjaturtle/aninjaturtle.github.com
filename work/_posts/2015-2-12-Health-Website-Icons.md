@@ -11,4 +11,4 @@ blurb: Iconography for a Health Website
 {% include JB/setup %}
 ##Iconography for a Children's Health Program Website
 
-This series of icons was developed in parallel was Google's release of their Material Design standards.  I will be releasing the full design after the website has been launched.
+A series of icons developed based on Google's Material Design standards.

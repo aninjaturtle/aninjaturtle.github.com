@@ -11,5 +11,4 @@ blurb: Case Study Logo
 {% include JB/setup %}
 ##The Black Rooster
 
-I initially drew this rooster for another purpose.  I didn't want to let it go to waste  and decided to utilize it in a logo design.  
 

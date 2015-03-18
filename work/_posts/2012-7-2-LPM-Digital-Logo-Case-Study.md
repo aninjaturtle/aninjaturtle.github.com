@@ -11,4 +11,4 @@ blurb: LPM Digital Logo Design Case Study
 {% include JB/setup %}
 ##Logo Design for LPM Digital Case Study
 
-This was a logo design that I produced for my own personal branding.
+Logo design that I produced for personal use.

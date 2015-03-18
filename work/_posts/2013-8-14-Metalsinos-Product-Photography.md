@@ -11,4 +11,4 @@ blurb: Showcasing the Finest Hardware Beauty Shots
 {% include JB/setup %}
 ##Metalsinos Product Shot
 
-This was amongst a variety of beauty shots I did for a Brazilian Hardware manufacturer called Metalsinos.  They make eco-friendly architectural hardware.
+Beauty shots for the Brazilian Hardware manufacturer Metalsinos.
