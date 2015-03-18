@@ -1,7 +1,7 @@
 ---
 layout: landing_page
 title: William Patrick Dildine
-tagline: design.code();
+tagline: [design.code]
 ---
 {% include JB/setup %}
 
