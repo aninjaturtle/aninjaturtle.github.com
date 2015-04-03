@@ -477,7 +477,9 @@ img.b-img{
 
 }
 @media (max-width: 767px) {
-
+.mobile-hide{
+	display:none;
+}
 .blog-img {
 	margin-top: 0px;
 	margin-left: 0px;
