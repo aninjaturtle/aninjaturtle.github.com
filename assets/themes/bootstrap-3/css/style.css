@@ -489,6 +489,9 @@ img.b-img{
 	margin-left: 0px;
 	width: 100%;
 }
+h1, .h1 {
+font-size: 32px;
+}
 }
 @media (max-width: 767px) and (min-width: 200px){
 
