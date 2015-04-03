@@ -9,8 +9,6 @@ blurb:  Dynamically adding lights to a Scene
 {% include JB/setup %}
 
 ##Dynamically Changing Lighting Properties with THREE.js
-
-
 <p data-height="568" data-theme-id="0" data-slug-hash="rabaRd" data-default-tab="result" data-user="wpdildine" class='codepen'>See the Pen <a href='http://codepen.io/wpdildine/pen/rabaRd/'>rabaRd</a> by Patrick (<a href='http://codepen.io/wpdildine'>@wpdildine</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
