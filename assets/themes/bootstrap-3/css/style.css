@@ -182,7 +182,9 @@ label{
 /* blog container*/
 .blog-container{
 	min-height:300px;
-	}
+	margin-top:50px;
+	margin-bottom:50px
+}
 
 /* tag_box */
 .tag_box {
