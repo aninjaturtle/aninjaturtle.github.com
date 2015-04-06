@@ -16,8 +16,8 @@ $( "#wrap" ).mousemove(function( event ) {
 });
 
 $( document ).on( "mousemove", function( event ) {
- 	mouseY = event.clientY;
-	mouseX  = event.clientX; 
+ 	mouseY = event.screenY;
+	mouseX  = event.screenX; 
 	degreesAngle = angleCalc(iconX, iconY, mouseX, mouseY);
 	$("#brand").css("transform", 'rotate('+ degreesAngle + 'deg)');
 });
