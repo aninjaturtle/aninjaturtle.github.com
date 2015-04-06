@@ -1,15 +1,15 @@
 var iconX, iconY, mouseX, mouseY, degreesAngle, position;
 $(function () {
     position = $("#brand").offset();	
-    iconY = position.top;
-    iconX = position.left;
+    iconY = position.top+45;
+    iconX = position.left+45;
 	console.log(iconY);
 });
 
 $(window).scroll(function () {
 	position = $("#brand").offset();
-	iconY = position.top;
-	iconX = position.left;
+	iconY = position.top+45;
+	iconX = position.left+45;
 	console.log(iconY);
 });
 	
