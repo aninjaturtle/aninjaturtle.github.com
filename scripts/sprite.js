@@ -3,16 +3,16 @@ $(function () {
     position = $("#brand").offset();	
     iconY = position.top;
     iconX = position.left;
-	$('.mark').css('top', iconY + 'px');
-	$('.mark').css('left', iconX + 'px');  	
+	/*$('.mark').css('top', iconY + 'px');
+	$('.mark').css('left', iconX + 'px');*/  	
 });
 
 $(window).scroll(function () {
 	position = $("#brand").offset();
 	iconY = position.top;
 	iconX = position.left;
-	$('.mark').css('top', iconY + 'px');
-	$('.mark').css('left', iconX + 'px');  });
+	/*$('.mark').css('top', iconY + 'px');
+	$('.mark').css('left', iconX + 'px');  });*/
 	
 $( "#wrap" ).mousemove(function( event ) {
 });
@@ -38,4 +38,8 @@ function angleCalc(cirX, cirY, cursorX, cursorY){
 	return theta;
 }
 
-
+$( window ).resize(function() {
+  	position = $("#brand").offset();
+	iconY = position.top;
+	iconX = position.left;
+});
