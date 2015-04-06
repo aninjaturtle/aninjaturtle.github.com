@@ -1,4 +1,5 @@
 var iconX, iconY, mouseX, mouseY, degreesAngle, position;
+
 $(function () {
     position = $("#brand").offset();	
     iconY = position.top;
@@ -21,6 +22,12 @@ $( document ).on( "mousemove", function( event ) {
 	$("#brand").css("transform", 'rotate('+ degreesAngle + 'deg)');
 });
 
+$( window ).resize(function() {
+  	position = $("#brand").offset();
+	iconY = position.top;
+	iconX = position.left;
+});
+
 function angleCalc(cirX, cirY, cursorX, cursorY){
 	var deltaX = cursorX - cirX;
 	var deltaY = cursorY - cirY;
@@ -34,9 +41,3 @@ function angleCalc(cirX, cirY, cursorX, cursorY){
 		theta = theta*(180/Math.PI);
 	return theta;
 }
-
-$( window ).resize(function() {
-  	position = $("#brand").offset();
-	iconY = position.top;
-	iconX = position.left;
-});
