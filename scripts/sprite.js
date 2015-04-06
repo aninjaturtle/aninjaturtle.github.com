@@ -1,8 +1,8 @@
 var iconX, iconY, mouseX, mouseY, degreesAngle, position;
 $(function () {
     position = $("#brand").offset();	
-    iconY = position.top+45;
-    iconX = position.left+45;
+    iconY = position.top;
+    iconX = position.left;
 	console.log(iconY);
 	$('.mark').css('top', iconY + 'px');
 	$('.mark').css('left', iconX + 'px');  	
@@ -10,8 +10,8 @@ $(function () {
 
 $(window).scroll(function () {
 	position = $("#brand").offset();
-	iconY = position.top+45;
-	iconX = position.left+45;
+	iconY = position.top;
+	iconX = position.left;
 	console.log(iconY);
 	$('.mark').css('top', iconY + 'px');
 	$('.mark').css('left', iconX + 'px');  });
