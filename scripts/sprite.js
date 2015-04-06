@@ -7,7 +7,8 @@ $(function () {
     $(window).scroll(function () {
 		position = $("#brand").offset();
 		iconY = position.top;
-		iconX = position.left;		
+		iconX = position.left;
+		console.log(iconY);
     });	
 });
 
