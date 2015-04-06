@@ -20,7 +20,7 @@ $( "#wrap" ).mousemove(function( event ) {
 });
 
 $( document ).on( "mousemove", function( event ) {
- 	mouseY = event.pageY;
+ 	mouseY = event.pageY + $(document).scrollTop();
 	console.log(mouseY);
 	mouseX  = event.pageX; 
 	degreesAngle = angleCalc(iconX, iconY, mouseX, mouseY);
