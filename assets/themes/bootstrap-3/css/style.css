@@ -276,7 +276,6 @@ label{
 	background-image: url(images/6.jpg);
 }
 .works-info {
-    position: absolute;
     background: rgba(202, 123, 103, 0.9);
     width: 300px;
     height: 300px;
