@@ -20,9 +20,9 @@ $( "#wrap" ).mousemove(function( event ) {
 });
 
 $( document ).on( "mousemove", function( event ) {
- 	mouseY = event.screenY;
+ 	mouseY = event.pageY;
 	console.log(mouseY);
-	mouseX  = event.screenX; 
+	mouseX  = event.pageX; 
 	degreesAngle = angleCalc(iconX, iconY, mouseX, mouseY);
 	$("#brand").css("transform", 'rotate('+ degreesAngle + 'deg)');
 });
