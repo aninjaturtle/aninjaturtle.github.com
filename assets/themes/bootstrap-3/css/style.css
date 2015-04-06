@@ -384,7 +384,7 @@ label{
 	margin-top: -38px;
 	margin-bottom: -56px;
 	margin-left: 30px;
-	background-image: url("/assets/brand.png");
+	background-image: url("./../assets/brand.png");
 	background-repeat: no-repeat;
 	transform:rotate(90deg);
 	-ms-transform:rotate(90); /* IE 9 */
