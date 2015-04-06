@@ -4,7 +4,7 @@ $(function () {
     iconY = position.top+45;
     iconX = position.left+45;
 	console.log(iconY);
-	$('.mark').css('position', iconX + 'px ' + iconY + 'px';  
+	$('.mark').css('position', iconX + 'px ' + iconY + 'px');  
 });
 
 $(window).scroll(function () {
@@ -12,7 +12,7 @@ $(window).scroll(function () {
 	iconY = position.top+45;
 	iconX = position.left+45;
 	console.log(iconY);
-	$('.mark').css('position', iconX + 'px ' + iconY + 'px';  
+	$('.mark').css('position', iconX + 'px ' + iconY + 'px');  
 });
 	
 $( "#wrap" ).mousemove(function( event ) {
