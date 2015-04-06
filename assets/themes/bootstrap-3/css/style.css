@@ -12,7 +12,7 @@
 	background-color:rgba(255, 51, 144, 0.42);
 	width:90px;
 	height:90px;
-	position:fixed;
+	position:absolute;
 	top:0px;
 	left:0px;
 
@@ -386,6 +386,7 @@ label{
 	float: right;
 }
 #brand{
+	position:absolute;
 	width: 90px;
 	height: auto;
 	float: right;
