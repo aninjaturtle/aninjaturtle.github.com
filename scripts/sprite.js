@@ -1,18 +1,17 @@
 var iconX, iconY, mouseX, mouseY, degreesAngle, position;
-
 $(function () {
     position = $("#brand").offset();	
     iconY = position.top;
     iconX = position.left;
-
 });
 
 $(window).scroll(function () {
-		position = $("#brand").offset();
-		iconY = position.top;
-		iconX = position.left;
-		console.log(iconY);
-    });	
+	position = $("#brand").offset();
+	iconY = position.top;
+	iconX = position.left;
+	console.log(iconY);
+});
+	
 $( "#wrap" ).mousemove(function( event ) {
 });
 
