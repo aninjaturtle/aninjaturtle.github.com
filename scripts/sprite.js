@@ -4,14 +4,15 @@ $(function () {
     position = $("#brand").offset();	
     iconY = position.top;
     iconX = position.left;
-    $(window).scroll(function () {
+
+});
+
+$(window).scroll(function () {
 		position = $("#brand").offset();
 		iconY = position.top;
 		iconX = position.left;
 		console.log(iconY);
     });	
-});
-
 $( "#wrap" ).mousemove(function( event ) {
 });
 
