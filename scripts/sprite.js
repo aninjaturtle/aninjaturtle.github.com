@@ -2,17 +2,14 @@ var iconX, iconY, mouseX, mouseY, degreesAngle, position;
 $(function () {
     position = $("#brand").offset();	
     iconY = position.top;
-    iconX = position.left;
-	/*$('.mark').css('top', iconY + 'px');
-	$('.mark').css('left', iconX + 'px');*/  	
+    iconX = position.left;	
 });
 
 $(window).scroll(function () {
 	position = $("#brand").offset();
 	iconY = position.top;
 	iconX = position.left;
-	/*$('.mark').css('top', iconY + 'px');
-	$('.mark').css('left', iconX + 'px');  });*/
+});
 	
 $( "#wrap" ).mousemove(function( event ) {
 });
