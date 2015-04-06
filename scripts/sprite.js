@@ -3,6 +3,7 @@ $(function () {
     position = $("#brand").offset();	
     iconY = position.top;
     iconX = position.left;
+	console.log(iconY);
 });
 
 $(window).scroll(function () {
