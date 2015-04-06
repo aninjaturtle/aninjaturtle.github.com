@@ -3,7 +3,6 @@ $(function () {
     position = $("#brand").offset();	
     iconY = position.top;
     iconX = position.left;
-	console.log(iconY);
 	$('.mark').css('top', iconY + 'px');
 	$('.mark').css('left', iconX + 'px');  	
 });
@@ -12,7 +11,6 @@ $(window).scroll(function () {
 	position = $("#brand").offset();
 	iconY = position.top;
 	iconX = position.left;
-	console.log(iconY);
 	$('.mark').css('top', iconY + 'px');
 	$('.mark').css('left', iconX + 'px');  });
 	
@@ -21,7 +19,6 @@ $( "#wrap" ).mousemove(function( event ) {
 
 $( document ).on( "mousemove", function( event ) {
  	mouseY = event.pageY + $(document).scrollTop();
-	console.log(mouseY);
 	mouseX  = event.pageX; 
 	degreesAngle = angleCalc(iconX, iconY, mouseX, mouseY);
 	$("#brand").css("transform", 'rotate('+ degreesAngle + 'deg)');
