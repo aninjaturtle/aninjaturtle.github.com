@@ -4,7 +4,7 @@ category : blog
 tagline: Low-Poly "Theo" Sculpt
 tags : [3d, blender]
 img : /images/blog/b11.png
-img-sm : /images/blog/b11s.png
+img-sm : /images/blog/b11s.jpg
 blurb: Low Poly Assets!
 ---
 
