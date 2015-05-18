@@ -26,7 +26,7 @@
         "colorEmissive": [0.0,0.0,0.0],
         "DbgColor": 15658734,
         "mapDiffuseWrap": ["RepeatWrapping","RepeatWrapping"],
-        "mapDiffuse": "../http://i.imgur.com/n7UjOPY.png",
+        "mapDiffuse": "",
         "colorDiffuse": [0.6400000190734865,0.6400000190734865,0.6400000190734865],
         "depthWrite": true,
         "mapDiffuseRepeat": [1,1],
