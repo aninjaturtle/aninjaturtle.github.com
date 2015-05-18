@@ -26,7 +26,7 @@
         "colorEmissive": [0.0,0.0,0.0],
         "DbgColor": 15658734,
         "mapDiffuseWrap": ["RepeatWrapping","RepeatWrapping"],
-        "mapDiffuse": "https://cdn.rawgit.com/wpdildine/wpdildine.github.com/b3b2a54a1305240f732d378a8b207164400322fa/models/uv_monkey.png",
+        "mapDiffuse": "http://i.imgur.com/n7UjOPY.png",
         "colorDiffuse": [0.6400000190734865,0.6400000190734865,0.6400000190734865],
         "depthWrite": true,
         "mapDiffuseRepeat": [1,1],
