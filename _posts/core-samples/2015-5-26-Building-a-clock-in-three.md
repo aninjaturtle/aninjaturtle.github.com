@@ -13,7 +13,8 @@ This demo shows how to build a basic clock in three.js
 
 
 ##Code Pen
-http://youtu.be/1FX3f98DcBw
+<p data-height="468" data-theme-id="0" data-slug-hash="ZGprWp" data-default-tab="result" data-user="wpdildine" class='codepen'>See the Pen <a href='http://codepen.io/wpdildine/pen/ZGprWp/'>Three.js Clock</a> by Patrick (<a href='http://codepen.io/wpdildine'>@wpdildine</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 
 ##Code Work Flow
