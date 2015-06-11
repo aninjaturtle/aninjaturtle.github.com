@@ -12,7 +12,7 @@ blurb:  Flushing out a full scene with Blender and Effects Composer
 
 
 ##Code Pen
-<p data-height=468" data-theme-id="0" data-slug-hash="ZGyeVo" data-default-tab="result" data-user="wpdildine" class='codepen'>See the Pen <a href='http://codepen.io/wpdildine/pen/ZGyeVo/'>Completed Space Scene with Post Processing</a> by Patrick (<a href='http://codepen.io/wpdildine'>@wpdildine</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="268" data-theme-id="0" data-slug-hash="ZGyeVo" data-default-tab="result" data-user="wpdildine" class='codepen'>See the Pen <a href='http://codepen.io/wpdildine/pen/ZGyeVo/'>Completed Space Scene with Post Processing</a> by Patrick (<a href='http://codepen.io/wpdildine'>@wpdildine</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ##Code Work Flow Object Loader
