@@ -4,7 +4,7 @@ category : blog
 tagline: Shader Materials, Blender, jQuery and More!
 tags : [three.js, javascript, blender, texture ]
 img : /images/blog/b23.jpg
-blurb:  
+blurb:  A quick tutorial  on how to use GLSL shaders as a texture in three
 ---
 {% include JB/setup %}
 
