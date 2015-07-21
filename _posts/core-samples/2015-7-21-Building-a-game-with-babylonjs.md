@@ -4,7 +4,7 @@ category : blog
 tagline: Building an html5 game with Babylonjs
 tags : [babylon.js, javascript, scene ]
 img : /images/blog/b25.jpg
-blurb:  How to build a a basic game with the Babylonjs framework.
+blurb:  How to build a a basic game with the Babylonjs framework
 {% include JB/setup %}
 
 ##Demo on Importing and Exporting Blender Animations into BABYLON
