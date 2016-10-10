@@ -7,14 +7,18 @@ group: navigation
 
 {% include JB/setup %}
 <div class="row">
-{% for post in site.categories['sound'] %}
-  <div class="col-xs-12 col-sm-6 col-md-4">
-  	<div class="works" style="background-image: url({{ post.img-sm }});">
-        <div class="works-info">
-            <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-            <p>{{ post.blurb }}</p>
+    {% for post in site.categories['sound'] %}
+    <div class="blog-container">
+        <div class="col-sm-3 col-xs-12">
+            <img src = "{{ post.img-sm }}" class="blog-img" />
+        </div>
+        <div class="col-sm-9 col-xs-12">
+            <h1><a href="{{ post.url }}">{{ post.title }}</a></H1>
+            <div class ="date">
+                <span>{{ post.date | date: "%a, %b %d, %y" }}</span>
+            </div>
+            {{ post.blurb }}
         </div>
     </div>
-  </div>
-  {% endfor %} 
+    {% endfor %}
 </div>
